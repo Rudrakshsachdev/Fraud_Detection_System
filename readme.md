@@ -85,6 +85,6 @@ Fraud_Detection_Project/ <br>
 
 **Rudraksh Sachdeva**  
 B.Tech CSE Student | Machine Learning Intern | Tech Enthusiast  
-📧 Email: rudraksh.sachdeva@example.com  
+📧 Email: rudraksh.sachdeva.19work@gmail.com  
 🔗 LinkedIn: [linkedin.com/in/rudraksh-sachdeva](https://www.linkedin.com/in/rudraksh-sachdeva)  
 🐱 GitHub: [github.com/rudraksh-sachdeva](https://github.com/rudraksh-sachdev)
