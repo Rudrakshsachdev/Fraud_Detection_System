@@ -10,71 +10,37 @@ This project is a **machine learning-based web application** that detects fraudu
 
 ## Project structure
 
-Fraud_Detection_Project/
+Fraud_Detection_Project/ <br>
 │
-├── data/                         # Raw and cleaned datasets
-│   ├── FraudDataset/            # Raw datasets
-│   └── FraudDataset_cleaned.csv # Preprocessed dataset
+├── data/                         # Raw and cleaned datasets <br>
+│   ├── FraudDataset/            # Raw datasets <br>
+│   └── FraudDataset_cleaned.csv # Preprocessed dataset <br>
 │
-├── models/                      # Saved ML models
-│   └── fraud_detection_model.pkl
+├── models/                      # Saved ML models <br>
+│   └── fraud_detection_model.pkl <br>
 │
-├── outputs/                     # Model predictions / logs (optional)
+├── outputs/                     # Model predictions / logs (optional) <br>
 │
-├── src/                         # Source code for the application
-│   ├── __pycache__/             # Python bytecode cache
-│   ├── static/                  # Static files (CSS, JS)
-│   ├── uploads/                 # Uploaded CSVs for prediction
-│   ├── app.py                   # Flask app entry point
-│   ├── Load_and_Explore.py      # Data loading & exploration script
-│   ├── Prediction.py            # Prediction logic
-│   ├── Preprocess.py            # Data preprocessing module
-│   ├── run_model_training.py    # Model training pipeline
-│   ├── run_pre_processing.py    # Dataset pre-cleaning script
-│   ├── SaveModel.py             # Model saving utilities
-│   └── requirements.txt         # Python dependencies
+├── src/                         # Source code for the application <br>
+│   ├── __pycache__/             # Python bytecode cache <br>
+│   ├── static/                  # Static files (CSS, JS) <br>
+│   ├── uploads/                 # Uploaded CSVs for prediction <br>
+│   ├── app.py                   # Flask app entry point <br>
+│   ├── Load_and_Explore.py      # Data loading & exploration script <br>
+│   ├── Prediction.py            # Prediction logic <br>
+│   ├── Preprocess.py            # Data preprocessing module <br>
+│   ├── run_model_training.py    # Model training pipeline <br>
+│   ├── run_pre_processing.py    # Dataset pre-cleaning script <br>
+│   ├── SaveModel.py             # Model saving utilities <br>
+│   └── requirements.txt         # Python dependencies <br>
 │
-├── templates/                   # HTML templates for Flask
-│   └── index.html
+├── templates/                   # HTML templates for Flask <br>
+│   └── index.html <br>
 │
-├── readme.md                    # Project overview and instructions
+├── readme.md                    # Project overview and instructions <br>
 └── .gitignore                   # Files to be ignored by Git (you can add this)
 
 
-
-## 🚀 Features
-
-- Upload transaction data in CSV format
-- Preprocessing of raw data including:
-  - Datetime parsing and feature engineering
-  - Label encoding for customer and terminal IDs
-- Fraud detection using a trained machine learning model
-- Clean and responsive UI for user interaction
-- Displays prediction results in tabular format
-
-## 🧠 Machine Learning Details
-
-- **Algorithm:** Random Forest Classifier
-- **Training Features:**
-  - `TX_AMOUNT`
-  - `TX_TIME_SECONDS`
-  - `TX_TIME_DAYS`
-  - `TX_FRAUD_SCENARIO`
-  - `TX_HOUR`
-  - `TX_DAY`
-  - `TX_WEEKDAY`
-  - `CUSTOMER_ID_ENC`
-  - `TERMINAL_ID_ENC`
-
-# 💳 Fraud Transaction Detection using Machine Learning
-
-This project is a **machine learning-based web application** that detects fraudulent financial transactions from a CSV file. It provides a simple UI for uploading transaction data and outputs predictions indicating whether each transaction is fraudulent or legitimate.
-
-## 🔍 Overview
-
-- **Tech Stack:** Python, Flask, Scikit-learn, Pandas, NumPy, Bootstrap
-- **Model:** Supervised learning model (Random Forest Classifier)
-- **UI:** Built using Flask + HTML + CSS (Bootstrap & custom styles)
 
 ## 🚀 Features
 
